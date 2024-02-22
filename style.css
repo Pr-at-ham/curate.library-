@@ -1,0 +1,234 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    scroll-behavior: smooth;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+header{
+    height: 80px;
+    display: flex;
+}
+#profile{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #2a86ff;
+    border-radius: 50px;
+    margin-left: 30px;
+    background-image:url(images/profile.image.jfif);
+    margin-top: 3px;
+    transition: all ease 0.5s;
+    z-index: 2;
+}
+#profile:active{
+    scale: 2;
+    border-color: beige;
+    transform: translate(30px,30px);
+}
+h1{
+    font-family: "Protest Revolution", sans-serif;
+    color: #2a86ff;
+    font-size: 50px;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+hr{
+    margin-top: 8px;
+    /* margin-bottom: 10px; */
+    height: 0.5px;
+    background-color: #202020;
+    border: none;
+
+}
+span{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-left: 35px;
+    position: absolute;
+    z-index: 1;
+    opacity: 0.5;
+    color: rgb(171, 171, 171);
+}
+span:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+#menu_container{
+    height: 730px;
+    width: 150px;
+    border: 1px solid gray;
+    background-color: #202020;
+    float: left;
+    position: sticky;
+    top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+#menu_container button{
+    height: 40px;
+    width:130px ;
+    border: none;
+    border-radius: 7px;
+    /* margin-top: 30px; */
+    /* background-color: #2a86ff; */
+    color: white;
+    font-size: 20px;
+    font-family: monospace;
+    background: none;
+    transition: all ease 0.2s;
+    text-align: center;
+    margin-top: 30px;
+}
+#menu_container button:hover{
+    background-color: #2a86ff;
+    cursor: pointer;
+    scale: 1.03;
+    font-size:21px ;
+    box-shadow: 0px 0px 10px rgb(22, 22, 22);
+}
+
+#main_container{
+    padding-left:160px ;
+}
+#first_main_box{
+    margin-top: 0px;
+}
+.main_box{
+    height: 250px;
+    width: 98%;
+    background-color: #202020;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#courses{
+    font-size: 40px;
+    border-bottom: 1px solid #2a86ff;
+    margin-bottom: 10px;
+    width: 160px; ;
+}
+#practice{
+    font-size: 40px;
+    border-bottom: 1px solid #2a86ff;
+    margin-bottom: 10px;
+    width: 160px; ;
+}
+#ig_channels{
+    font-size: 40px;
+    border-bottom: 1px solid #2a86ff;
+    margin-bottom: 10px;
+    width: 230px; ;
+}
+#icons{
+    font-size: 40px;
+    border-bottom: 1px solid #2a86ff;
+    margin-bottom: 10px;
+    width: 110px; ;
+}
+#tools{
+    font-size: 40px;
+    border-bottom: 1px solid #2a86ff;
+    margin-bottom: 10px;
+    width: 110px; ;
+}
+.box{
+    height: 200px;
+    width: 330px;
+    border: 1px solid #2a86ff;
+    border-radius: 10px;
+    transition: all ease 0.2s;
+}
+.box:hover{
+    scale: 1.02;
+    box-shadow: 0px 0px 10px black;
+}
+iframe{
+    border-radius: 10px;
+}
+
+#box_button{
+    height: 100px;
+    width: 100px;
+    border: 1px solid #2a86ff;
+    border-radius: 50px;
+    background: none;
+    cursor: pointer;
+    color: #2a86ff;
+    font-size: 50px;
+    transition: all ease 0.2s;
+
+}
+#box_button:hover{
+    scale: 1.02;
+}
+
+
+img{
+    height: 130px;
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+    background-color: white;
+  
+}
+
+.box_info{
+    text-align: center;
+    padding-top: 5px;
+    font-size: 20px;
+}
+
+.info2{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+
+
+
+
+footer{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    background-color: #0b1623;
+}
+#creator{
+    font-size: 16px;
+    font-family: monospace;
+    background-color: #202020;
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+#disclamer{
+    font-size: 13px;
+    background-color: rgb(252, 36, 36);
+    text-align: center;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
